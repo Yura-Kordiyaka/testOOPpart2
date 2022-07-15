@@ -5,13 +5,13 @@ import json
 class Model(ABC):
     file = 'default.json'
 
-    @abstractmethod
-    def save(self):
-        pass
-
-    @abstractmethod
-    def _generate_dict(self):
-        pass
+    # @abstractmethod
+    # def save(self):
+    #     pass
+    #
+    # @abstractmethod
+    # def _generate_dict(self):
+    #     pass
 
     @classmethod
     def get_by_id(cls, id):
